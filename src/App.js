@@ -1,11 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import {Sponsors} from './components'
+import {About, Sponsors} from './components'
 import './App.css';
-// import './components/About'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Home, About } from '../components'
 
 
 function App() {
@@ -14,6 +11,7 @@ function App() {
     <Router>
       <Route exact path="/">
         <Sponsors/>
+        <About/>
       </Route>
     </Router>
     </div>
