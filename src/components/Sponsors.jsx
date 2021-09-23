@@ -5,6 +5,7 @@ import sponsor1 from '../media/Images/Devfolio.png';
 import sponsor2 from '../media/Images/Polygon.png';
 import sponsor3 from '../media/Images/Tezos.png';
 import sponsor4 from '../media/Images/Celo.png';
+import sponsor5 from '../media/Images/Filecoin.png';
 
 const Sponsor = ({ mode }) => {
   return (
@@ -64,6 +65,18 @@ const Sponsor = ({ mode }) => {
                             </Card.Body>
                     </Card>
                 </Col> 
+
+                <Col lg={4}>
+                    <Card className="sponsor-card sponsor-card-view">
+                        <Card.Img variant="top" src={sponsor5} />
+                            <Card.Body>
+                            <br></br>
+                                <Card.Title className="sponsors-title">Filecoin</Card.Title>
+                                <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
+                            </Card.Body>
+                    </Card>
+                </Col> 
+
             </Row>
 
         </div>
