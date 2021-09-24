@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import {About, Sponsors} from './components'
+import {Home,About,Judges,Mentors, Sponsors,Footer} from './components'
 import './App.css';
 
 
@@ -10,10 +10,12 @@ function App() {
     <div className="App">
     <Router>
       <Route exact path="/">
-        {/* <Home/> */}
-        {/* <About/> */}
-        <Sponsors/>
+        <Home/>
         <About/>
+        <Judges/>
+        <Mentors/>
+        <Sponsors/>
+        <Footer/>
       </Route>
     </Router>
     </div>
