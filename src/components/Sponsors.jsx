@@ -18,10 +18,11 @@ const Sponsor = ({ mode }) => {
         <h1 className='sponsor'>Sponsors</h1>
         <br></br>
         <h2 className="diamond">Diamond Sponsors</h2>
+        <br></br>
         <div>
             <Row className='cardrow1'>
                 <Col lg={6}>
-                    <Card className="sponsor-card sponsor-card-view">
+                    <Card className="diamond-card diamond-card-view">
                         <Card.Img variant="top" src={sponsor1} />
                             <Card.Body>
                                  <br></br>
@@ -32,7 +33,7 @@ const Sponsor = ({ mode }) => {
                 </Col>
            
                 <Col lg={6}>
-                    <Card className="sponsor-card sponsor-card-view">
+                    <Card className="diamond-card diamond-card-view">
                         <Card.Img variant="top" src={sponsor2} />
                             <Card.Body>
                             <br></br>
