@@ -2,6 +2,24 @@
     text-align: center;
     color: #441df5;
   }
+.diamond-card{
+  max-width: 500px;
+  padding-top: 50px;
+  max-height: 300px;
+}
+.diamond-card-view{
+  box-shadow: 0 4px 5px 3px #6f3df6 !important;
+  color: rgb(10, 10, 10) !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.diamond-card-view:hover{
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(64, 29, 218, 0.561) !important;
+}
   .sponsor-card{
     max-width: 300px;
     padding-top: 70px;
