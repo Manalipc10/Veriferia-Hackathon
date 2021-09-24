@@ -10,7 +10,7 @@ function App() {
     <div className="App">
     <Router>
       <Route exact path="/">
-        <Home/>
+        {/* <Home/> */}
         {/* <About/> */}
         <Sponsors/>
         <About/>
