@@ -13,6 +13,10 @@ body {
     align-self: center;
     overflow-x: hidden;
 }
+::-webkit-scrollbar {
+  width: 0px;
+
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

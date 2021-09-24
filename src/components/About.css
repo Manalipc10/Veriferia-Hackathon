@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-self: center;
+    /* overflow-y: visible; */
     /* background-color: burlywood; */
 }
 .abtcard{
@@ -25,7 +26,7 @@
 }
 .abtcard:hover{
   
-  background-color: rgba(133, 42, 129, 0.445);
-  backdrop-filter: blur(20px);
+  background-color: rgba(133, 42, 129, 0.44);
+  backdrop-filter: blur(10px);
   /* background: (rgb(133, 42, 128), 0.8); */
 }
