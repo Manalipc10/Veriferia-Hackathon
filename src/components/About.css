@@ -1,13 +1,16 @@
 .about{
     height:100vh;
     width:100vw;
-    background-image: url('../media/Images/aboutbg.svg');
+    /* background-image: url('../media/Images/aboutbg.svg'); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
     /* overflow-y: visible; */
     /* background-color: burlywood; */
+}
+.about img{
+  position: absolute;
 }
 .abtcard{
   background-color: rgba(131, 58, 127, 0.541);
@@ -20,13 +23,14 @@
   border-radius: 5px 100px 5px;
   box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
   border: 1px solid transparentize(rgb(133, 42, 128), 0.5);
-  background: transparentize(rgb(133, 42, 128), 0.8);
-  /* backdrop-filter: blur(20px); */
+  background: transparentize(rgb(133, 42, 128), 1);
+  backdrop-filter: blur(50px);
+  color: aliceblue;
   
 }
 .abtcard:hover{
   
-  background-color: rgba(133, 42, 129, 0.44);
+  background-color: rgba(133, 42, 129, 0.726);
   backdrop-filter: blur(10px);
   /* background: (rgb(133, 42, 128), 0.8); */
 }

@@ -1,22 +1,36 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Home.css";
 import V from "../media/Images/V.svg";
 import ball from "../media/Images/ball.png";
 
+// function Home(){
 
+// }
 
 const Home = () => {
+    const[offsetY, setOFFsetY] = useState(0);
+    const handleScroll = () => setOFFsetY(window.pageYOffset);
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+
+        return() => window.removeEventListener("scroll", handleScroll);
+    }, []);
     return (
         <div class="home">
             <section>
-                <img src={ball} alt="ball" id="ball1"></img>
-                <img src={ball} alt="ball" id="ball2"></img>
-                <img src={ball} alt="ball" id="ball3"></img>
-                <img src={ball} alt="ball" id="ball4"></img>
-                <img src={ball} alt="ball" id="ball5"></img>
-                <img src={ball} alt="ball" id="ball6"></img>
-                <img src={ball} alt="ball" id="ball7"></img>
-                <img src={V} alt="Veriféria" id="text"></img>
+                <img src={ball} alt="ball" id="ball1"style={{transform: `translateY(${offsetY * 2}px)`}}></img>
+                <img src={ball} alt="ball" id="ball2"style={{transform: `translateX(${offsetY * 2 }px)`}}></img>
+                <img src={ball} alt="ball" id="ball3"style={{transform: `translateX(-${offsetY * 1}px)`}}></img>
+                <img src={ball} alt="ball" id="ball4"style={{transform: `translateX(${offsetY * 0.5}px)`}}></img>
+                <img src={ball} alt="ball" id="ball5"style={{transform: `translateY(${offsetY * 2}px)`}}></img>
+                <img src={ball} alt="ball" id="ball6"style={{transform: `translateY(${offsetY * 3}px)`}}></img>
+                <img src={ball} alt="ball" id="ball7"style={{transform: `translateY(${offsetY * 0.2}px)`}}></img>
+                <img src={ball} alt="ball" id="ball4"style={{transform: `translateX(-${offsetY * 0.36}px)`}}></img>
+                <img src={ball} alt="ball" id="ball5"style={{transform: `translateY(${offsetY * 5}px)`}}></img>
+                <img src={ball} alt="ball" id="ball6"style={{transform: `translateY(${offsetY * 6}px)`}}></img>
+                <img src={ball} alt="ball" id="ball7"style={{transform: `translateY(-${offsetY * 0.1}px)`}}></img>
+                <img src={V} alt="Veriféria" id="text" style={{transform: `translateY(${offsetY * 0.75}px)`}}></img>
                 {/* <script type="text/javascript">
                     let text = document.getElementById("text");
                     let ball1 = document.getElementById("ball1");
