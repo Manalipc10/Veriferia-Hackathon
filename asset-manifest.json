@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Veriferia-Hackathon/static/css/main.7d2bf1f0.chunk.css",
+    "main.js": "/Veriferia-Hackathon/static/js/main.ce298fb1.chunk.js",
+    "main.js.map": "/Veriferia-Hackathon/static/js/main.ce298fb1.chunk.js.map",
+    "runtime-main.js": "/Veriferia-Hackathon/static/js/runtime-main.8d4d8e7f.js",
+    "runtime-main.js.map": "/Veriferia-Hackathon/static/js/runtime-main.8d4d8e7f.js.map",
+    "static/css/2.f2512455.chunk.css": "/Veriferia-Hackathon/static/css/2.f2512455.chunk.css",
+    "static/js/2.5891ed75.chunk.js": "/Veriferia-Hackathon/static/js/2.5891ed75.chunk.js",
+    "static/js/2.5891ed75.chunk.js.map": "/Veriferia-Hackathon/static/js/2.5891ed75.chunk.js.map",
+    "static/js/3.a46690e0.chunk.js": "/Veriferia-Hackathon/static/js/3.a46690e0.chunk.js",
+    "static/js/3.a46690e0.chunk.js.map": "/Veriferia-Hackathon/static/js/3.a46690e0.chunk.js.map",
+    "index.html": "/Veriferia-Hackathon/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/Veriferia-Hackathon/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.7d2bf1f0.chunk.css.map": "/Veriferia-Hackathon/static/css/main.7d2bf1f0.chunk.css.map",
+    "static/js/2.5891ed75.chunk.js.LICENSE.txt": "/Veriferia-Hackathon/static/js/2.5891ed75.chunk.js.LICENSE.txt",
+    "static/media/Postman.9d8147b8.png": "/Veriferia-Hackathon/static/media/Postman.9d8147b8.png",
+    "static/media/V.24d0c732.svg": "/Veriferia-Hackathon/static/media/V.24d0c732.svg",
+    "static/media/aboutbg.5865416a.svg": "/Veriferia-Hackathon/static/media/aboutbg.5865416a.svg",
+    "static/media/Home.css": "/Veriferia-Hackathon/static/media/bg.b3a64f55.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d4d8e7f.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.5891ed75.chunk.js",
+    "static/css/main.7d2bf1f0.chunk.css",
+    "static/js/main.ce298fb1.chunk.js"
+  ]
+}
