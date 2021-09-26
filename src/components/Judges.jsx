@@ -3,6 +3,7 @@ import "./Judges.scss";
 
 const Judges = () => {
     return (
+        
         <div class="judges">
             <div class="mnjcardsall">
         <div class="card__collection clear-fix">

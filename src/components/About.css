@@ -11,6 +11,7 @@
 }
 .about img{
   position: absolute;
+  z-index: -99999;
 }
 .abtcard{
   background-color: rgba(131, 58, 127, 0.541);
@@ -25,12 +26,23 @@
   border: 1px solid transparentize(rgb(133, 42, 128), 0.5);
   background: transparentize(rgb(133, 42, 128), 1);
   backdrop-filter: blur(50px);
-  color: aliceblue;
-  
+  font-family: Bite;
+  word-spacing: 1em;
+  color: aliceblue; 
+  padding: 3em;
+  line-height: 2em; 
 }
 .abtcard:hover{
   
   background-color: rgba(133, 42, 129, 0.726);
   backdrop-filter: blur(10px);
   /* background: (rgb(133, 42, 128), 0.8); */
+}
+.model{
+  z-index: 100000;
+  border: solid black;
+  width:50vw;
+  position: absolute;
+  top:0;
+  left:0;
 }
