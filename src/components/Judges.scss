@@ -25,6 +25,9 @@
   }
   
   .img-responsive {
+  // height:fit-content;
+  // overflow-x: hidden;
+  size: cover;
   max-width: 100%;
   height: auto;
   }
@@ -33,9 +36,9 @@
   
   $color-box-1 : #0f9bc0;
   $color-box-2 : rgba(34, 65, 154, .8);
-  $color-box-3 : #57ccfd;
+  $color-box-3 : #852a80;
   $color-box-4 : #e660e3;
-  $color-box-5 : #f07306;
+  $color-box-5 : #94BDFF;
   $color-box-6 : #9b1308;
   $color-box-7 : #de8b3e;
   

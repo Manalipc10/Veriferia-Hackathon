@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Judges.scss";
+// import {Ishadi} from "../media/Images/Judges/Ishadi.png";
 
 const Judges = () => {
     return (
@@ -8,35 +9,35 @@ const Judges = () => {
             <div className="mnjcardsall">
                 <div className="card__collection clear-fix">
                     <div className="mnjcards mnjcards--two">
-                        <img src="https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d702cb99ca804bffcfa8820c46483264&auto=format&fit=crop&w=651&q=80"
-                            className="img-responsive" alt="Cards Image"></img>
+                        <img src="/Ishadi.jpeg"
+                            className="img-responsive" alt="Isha di"></img>
                         <span className="mnjcards--two__rect">
                         </span>
                         <span className="mnjcards--two__tri"></span>
-                        <p>Lucy Grace</p>
+                        <p>Isha Ghiria</p>
                         <ul className="mnjcards__list">
-                            <li></li>
+                            {/* <li><img src="/Linkedin.svg" height="2vh"></img></li> */}
                         </ul>
                     </div>
 
                     <div className="mnjcards mnjcards--two">
-                        <img src="https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d702cb99ca804bffcfa8820c46483264&auto=format&fit=crop&w=651&q=80"
+                        <img src="/Twinkledi.jpeg"
                             className="img-responsive" alt="Cards Image"></img>
                         <span className="mnjcards--two__rect"></span>
                         <span className="mnjcards--two__tri"></span>
-                        <p>Lucy Grace</p>
+                        <p>Twinkle Bagdi</p>
                         <ul className="mnjcards__list">
-                            <li>hello</li>
+                            {/* <li>hii<a href="www.google.com" target="_blank"><img className="linke" src="/Linkedin.svg"></img></a></li> */}
 
                         </ul>
                     </div>
 
                     <div className="mnjcards mnjcards--two">
-                        <img src="https://images.unsplash.com/photo-1504703395950-b89145a5425b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d702cb99ca804bffcfa8820c46483264&auto=format&fit=crop&w=651&q=80"
+                        <img src="/VaishnaviDi.jpeg"
                             className="img-responsive" alt="Cards Image"></img>
                         <span className="mnjcards--two__rect"></span>
                         <span className="mnjcards--two__tri"></span>
-                        <p>Lucy Grace</p>
+                        <p>Vaishnavi Desai</p>
                         <ul className="mnjcards__list">
                         </ul>
                     </div>
