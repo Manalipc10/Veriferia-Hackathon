@@ -33,11 +33,15 @@ const About = () => {
                 {/* <model-viewer src="shared-assets/models/Astronaut.glb" alt="A 3D model of an astronaut" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls></model-viewer> */}
                 <div className="abtcard">
                     Veriféria is a rookiethon conducted by IEEE UMIT. The main focus of this hackathon is to attract UMIT students who are just starting out their journey of technological development.
-                </div>
-                <div class="apply-button" 
+                    <div className="apply-button"
+                        data-hackathon-slug="veriferia"
+                        data-button-theme="light"
+                        style={{ height: 44 + 'px', width: 312 + 'px'}}>
+                    </div>
+                    {/* <div class="apply-button" 
 	                data-hackathon-slug="veriferia" 
 	                data-button-theme="light"
-	            	style="height: 44px; width: 312px">
+	            	style={{height: 44 + 'px', width: 312 + 'px'}}> */}
                 </div>
                 <div className="modelcover">
                     <model-viewer

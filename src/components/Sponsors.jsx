@@ -10,96 +10,109 @@ import sponsor6 from '../media/Images/Polygon.png';
 
 
 const Sponsor = ({ mode }) => {
-  return (
-    <div className='sponsors' id="sponsor" data-theme={mode ? "dark" : "light"}>
-      <br /> <br />
-      <Container align='center'>
-        <br></br>
-        <h1 className='sponsor'>Sponsors</h1>
-        <br></br>
-        <h2 className="diamond">Diamond Sponsors</h2>
-        <br></br>
-        <div>
-            <Row className='cardrow1'>
-                <Col lg={6}>
-                    <Card className="diamond-card diamond-card-view">
-                        <Card.Img variant="top" src={sponsor1} />
-                            <Card.Body>
-                                 <br></br>
-                                     <Card.Title className="sponsors-title">Postman</Card.Title>
-                                     <Card.Text className="sponsors-title">Diamond Sponsor</Card.Text>
-                            </Card.Body>
-                    </Card>
-                </Col>
-           
-                <Col lg={6}>
-                    <Card className="diamond-card diamond-card-view">
-                        <Card.Img variant="top" src={sponsor2} />
-                            <Card.Body>
-                            <br></br>
-                                <Card.Title className="sponsors-title">Devfolio</Card.Title>
-                                <Card.Text className="sponsors-title">Diamond Sponsor</Card.Text>
-                            </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-            <br></br>
-                <h2 className="platinum">Platinum Sponsors</h2>
-            <br></br>
-            
-            <Row>
-                <Col lg={3}>
-                    <Card className="sponsor-card sponsor-card-view">
-                        <Card.Img variant="top" src={sponsor3} />
-                            <Card.Body>
-                            <br></br>
-                                <Card.Title className="sponsors-title">Tezos</Card.Title>
-                                <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
-                            </Card.Body>
-                    </Card>
-                </Col> 
+    return (
+        <div className='sponsors' id="sponsor" data-theme={mode ? "dark" : "light"}>
+            <br /> <br />
+            <Container align='center'>
+                <br></br>
+                <h1 className='sponsor'>Sponsors</h1>
+                <br></br>
+                <h2 className="diamond">Diamond Sponsors</h2>
+                <br></br>
+                <div>
+                    <Row className='cardrow1'>
+                        <Col lg={6}>
+                            <a href="https://www.postman.com/" target="_blank">
+                                <Card className="diamond-card diamond-card-view">
+                                    <Card.Img variant="top" src={sponsor1} />
+                                    <Card.Body>
+                                        <br></br>
+                                        <Card.Title className="sponsors-title">Postman</Card.Title>
+                                        <Card.Text className="sponsors-title">Diamond Sponsor</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
 
-                <Col lg={3}>
-                    <Card className="sponsor-card sponsor-card-view">
-                        <Card.Img variant="top" src={sponsor4} />
-                            <Card.Body>
-                            <br></br>
-                                <Card.Title className="sponsors-title">Celo</Card.Title>
-                                <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
-                            </Card.Body>
-                    </Card>
-                </Col> 
+                        <Col lg={6}>
+                            <a href="https://devfolio.co" target="_blank">
+                                <Card className="diamond-card diamond-card-view">
 
-                <Col lg={3}>
-                    <Card className="sponsor-card sponsor-card-view">
-                        <Card.Img variant="top" src={sponsor5} />
-                            <Card.Body>
-                            <br></br>
-                                <Card.Title className="sponsors-title">Filecoin</Card.Title>
-                                <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
-                            </Card.Body>
-                    </Card>
-                </Col> 
+                                    <Card.Img variant="top" src={sponsor2} />
+                                    <Card.Body>
+                                        <br></br>
+                                        <Card.Title className="sponsors-title">Devfolio</Card.Title>
+                                        <Card.Text className="sponsors-title">Diamond Sponsor</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <h2 className="platinum">Platinum Sponsors</h2>
+                    <br></br>
 
-                <Col lg={3}>
-                    <Card className="sponsor-card sponsor-card-view">
-                        <Card.Img variant="top" src={sponsor6} />
-                            <Card.Body>
-                            <br></br>
-                                <Card.Title className="sponsors-title">Polygon</Card.Title>
-                                <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
-                            </Card.Body>
-                    </Card>
-                </Col> 
+                    <Row>
+                        <Col lg={3}>
+                            <a href="https://tezos.com/" target="_blank">
+                                <Card className="sponsor-card sponsor-card-view">
+                                    <Card.Img variant="top" src={sponsor3} />
+                                    <Card.Body>
+                                        <br></br>
+                                        <Card.Title className="sponsors-title">Tezos</Card.Title>
+                                        <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
+
+                        <Col lg={3}>
+                            <a href="https://celo.org/" target="_blank">
+                                <Card className="sponsor-card sponsor-card-view">
+                                    <Card.Img variant="top" src={sponsor4} />
+                                    <Card.Body>
+                                        <br></br>
+                                        <Card.Title className="sponsors-title">Celo</Card.Title>
+                                        <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
+
+                        <Col lg={3}>
+                            <a href="https://filecoin.io/" target="_blank">
+                                <Card className="sponsor-card sponsor-card-view">
+                                    <Card.Img variant="top" src={sponsor5} />
+                                    <Card.Body>
+                                        <br></br>
+                                        <Card.Title className="sponsors-title">Filecoin</Card.Title>
+                                        <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
+
+                        <Col lg={3}>
+                            <a href="https://polygon.technology/" target="_blank">
+                                <Card className="sponsor-card sponsor-card-view">
+                                    <Card.Img variant="top" src={sponsor6} />
+                                    <Card.Body>
+                                        <br></br>
+                                        <Card.Title className="sponsors-title">Polygon</Card.Title>
+                                        <Card.Text className="sponsors-title">Platinum Sponsor</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </a>
+                        </Col>
 
 
 
-            </Row>
+                    </Row>
 
+                </div>
+            </Container>
         </div>
-      </Container>
-    </div>
-  )
+    )
 }
 
 export default Sponsor
