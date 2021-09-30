@@ -4,8 +4,8 @@ import "./Judges.scss";
 
 const Judges = () => {
     return (
-
         <div className="judges">
+            <h1 className="heading"> Judges </h1>
             <div className="mnjcardsall">
                 <div className="card__collection clear-fix">
                     <div className="mnjcards mnjcards--two">

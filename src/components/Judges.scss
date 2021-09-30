@@ -1,3 +1,8 @@
+.heading{
+  margin-top: 0;
+  text-align: center;
+  color: rgb(133, 42, 128);
+}
 .Judges{
     height: 100vh;
     width: 100vw;
@@ -71,7 +76,7 @@
   }
   
   .mnjcards--one {
-      backface-visiblility: hidden;
+      backface-visibility: hidden;
       &:hover {
         
         &:after {
