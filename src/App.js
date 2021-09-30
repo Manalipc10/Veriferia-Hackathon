@@ -12,8 +12,8 @@ function App() {
       <Route exact path="/">
         <Home/>
         <About/>
-        <Judges/>
-        <Mentors/>
+        {/* <Judges/>
+        <Mentors/> */}
         <Sponsors/>
         <Footer/>
       </Route>
