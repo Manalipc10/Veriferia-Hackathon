@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col, Card, Container } from 'react-bootstrap'
 import './Sponsors.css'
-import sponsor1 from '../media/Images/Postman.png';
+import sponsor1 from '../media/Images/Postman.svg';
 import sponsor2 from '../media/Images/Devfolio.png';
 import sponsor3 from '../media/Images/Tezos.png';
 import sponsor4 from '../media/Images/Celo.png';
