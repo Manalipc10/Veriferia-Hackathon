@@ -11,7 +11,7 @@ import sponsor6 from '../media/Images/Polygon.png';
 
 const Sponsor = ({ mode }) => {
   return (
-    <div class='sponsors' id="sponsor" data-theme={mode ? "dark" : "light"}>
+    <div className='sponsors' id="sponsor" data-theme={mode ? "dark" : "light"}>
       <br /> <br />
       <Container align='center'>
         <br></br>

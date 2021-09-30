@@ -22,3 +22,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: Bite;
+  src: url("../src/media/Fonts/BiteChocolate-2RGl.ttf");
+}
+
+:host{
+  height:80vh; 
+}

@@ -25,6 +25,9 @@
   }
   
   .img-responsive {
+  // height:fit-content;
+  // overflow-x: hidden;
+  size: cover;
   max-width: 100%;
   height: auto;
   }
@@ -33,9 +36,9 @@
   
   $color-box-1 : #0f9bc0;
   $color-box-2 : rgba(34, 65, 154, .8);
-  $color-box-3 : #57ccfd;
+  $color-box-3 : #852a80;
   $color-box-4 : #e660e3;
-  $color-box-5 : #f07306;
+  $color-box-5 : #94BDFF;
   $color-box-6 : #9b1308;
   $color-box-7 : #de8b3e;
   
@@ -485,7 +488,7 @@
 }
 .bgmen{
   position: absolute;
-  transform: rotateY(45deg);
+  transform: rotate3d(45deg);
 }
 .bgmen2{
   top:500vh;
@@ -494,3 +497,34 @@
   right:0;
   z-index: -2000;
 }
+//model
+.model2{
+  width: 20%;
+  height: 50vh;
+  position: absolute;
+  right:80vw;
+  overflow: hidden;
+  z-index: 99;
+
+}
+// .model3{
+//   width: 20%;
+//   height: 50vh;
+//   position: absolute;
+//   right:80vw;
+//   overflow: hidden;
+//   z-index: 99;
+// }
+
+// model-viewer {
+//   width: 20%;
+//   height: 50vh;
+//   position: absolute;
+//   left:80vw;
+//   overflow: hidden;
+//   /* top: 150vh;
+//   right:0vw; */
+//   /* background-color: #70bcd1; */
+//   /* --poster-color: #ffffff00; */
+//    z-index: 99;
+// }

@@ -11,6 +11,7 @@
 }
 .about img{
   position: absolute;
+  z-index: -99999;
 }
 .abtcard{
   background-color: rgba(131, 58, 127, 0.541);
@@ -25,12 +26,43 @@
   border: 1px solid transparentize(rgb(133, 42, 128), 0.5);
   background: transparentize(rgb(133, 42, 128), 1);
   backdrop-filter: blur(50px);
-  color: aliceblue;
-  
+  font-family: Bite;
+  word-spacing: 1em;
+  color: aliceblue; 
+  padding: 3em;
+  line-height: 2em; 
 }
 .abtcard:hover{
   
   background-color: rgba(133, 42, 129, 0.726);
   backdrop-filter: blur(10px);
+  z-index:100000;
   /* background: (rgb(133, 42, 128), 0.8); */
 }
+.modelcover{
+  /* z-index: 100000; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 80vh;
+  position: absolute;
+  left:70vw;
+  overflow: hidden; 
+}
+.model{
+  height:100%;
+}
+model-viewer {
+  /* width: 40%; */
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+  /* left:70vw; */
+  /* overflow: hidden; */
+  /* top: 150vh;
+  right:0vw; */
+  /* background-color: #70bcd1; */
+  /* --poster-color: #ffffff00; */
+  /* z-index: -99; */
+ }

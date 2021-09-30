@@ -17,7 +17,7 @@ const Home = () => {
         return() => window.removeEventListener("scroll", handleScroll);
     }, []);
     return (
-        <div class="home">
+        <div className="home">
             <section>
                 <img src={ball} alt="ball" id="ball1"style={{transform: `translateY(${offsetY * 2}px)`}}></img>
                 <img src={ball} alt="ball" id="ball2"style={{transform: `translateX(${offsetY * 2 }px)`}}></img>
