@@ -15,8 +15,7 @@ import bg from "../media/Images/aboutbg.svg";
 const Mentors = () => {
     return (
         <div className="mentor">
-            <img className="bgmen" src={bg} alt="WAVE"></img>
-            <img className="bgmen2" src={bg} alt="WAVE"></img>
+            {/* <img className="bgmen" src={bg} alt="WAVE"></img> */}
             <div className="mnjcardsall">
                 <div className="card__collection clear-fix">
 

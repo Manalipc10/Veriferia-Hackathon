@@ -1,6 +1,7 @@
-.sponsor{
+.sponsors{
     text-align: center;
     color: rgb(133, 42, 128);
+    /* background-color: aquamarine; */
   }
 .diamond-card{
   max-width: 500px;
@@ -10,8 +11,11 @@
 .diamond-card-view{
   box-shadow: 0 4px 5px 3px rgb(216, 127, 211) !important;
   color: rgb(10, 10, 10) !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
+  background-color: rgba(255, 255, 255, 0.692);
+  background: transparentize(#fff);
+  backdrop-filter: blur(80px);
+  /* background-color: transparent !important; */
+  /* opacity: 0.9 !important; */
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
@@ -30,8 +34,11 @@
   .sponsor-card-view{
     box-shadow: 0 4px 5px 3px rgb(216, 127, 211) !important;
     color: rgb(10, 10, 10) !important;
-    background-color: transparent !important;
-    opacity: 0.9 !important;
+    background-color: rgba(255, 255, 255, 0.692);
+  background: transparentize(#fff);
+  backdrop-filter: blur(80px);
+    /* background-color: transparent !important;
+    opacity: 0.9 !important; */
     transition: all 0.5s ease 0s !important;
     height: 100% !important;
   }
@@ -39,4 +46,11 @@
     transform: scale(1.02) !important;
     overflow: hidden !important;
     box-shadow: 0 4px 4px 5px rgb(216, 127, 211) !important;
+  }
+  .bgmen2{
+    /* top:500vh; */
+    position: absolute;
+    transform: rotate3d(85deg);
+    right:0;
+    z-index: -2000;
   }

@@ -7,11 +7,13 @@ import sponsor3 from '../media/Images/Tezos.png';
 import sponsor4 from '../media/Images/Celo.png';
 import sponsor5 from '../media/Images/Filecoin.png';
 import sponsor6 from '../media/Images/Polygon.png';
+import bg from "../media/Images/aboutbg.svg";
 
 
 const Sponsor = ({ mode }) => {
     return (
         <div className='sponsors' id="sponsor" data-theme={mode ? "dark" : "light"}>
+             <img className="bgmen2" src={bg} alt="WAVE"></img>
             <br /> <br />
             <Container align='center'>
                 <br></br>
@@ -24,7 +26,7 @@ const Sponsor = ({ mode }) => {
                         <Col lg={6}>
                             <a href="https://www.postman.com/" target="_blank">
                                 <Card className="diamond-card diamond-card-view">
-                                    <Card.Img variant="top" src={sponsor1} />
+                                    <Card.Img variant="top" src={sponsor1} style={{height:`103px`, width:`498px`}} />
                                     <Card.Body>
                                         <br></br>
                                         <Card.Title className="sponsors-title">Postman</Card.Title>
