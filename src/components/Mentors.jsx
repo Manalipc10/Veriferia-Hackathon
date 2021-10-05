@@ -5,6 +5,7 @@ import React from 'react'
 import "./Judges.scss";
 import bg from "../media/Images/aboutbg.svg";
 
+
 const Mentors = () => {
     return (
         <div className="mentor">
@@ -14,11 +15,11 @@ const Mentors = () => {
                 <div className="card__collection clear-fix">
 
                     <div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                        <img src="/Aanchal di.jpeg"
                             className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Aanchal Mishra</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
@@ -31,11 +32,11 @@ const Mentors = () => {
                         </ul>
                     </div>
                     <div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                    <img src="/Anika di.jpeg"
                             className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Anika Tibrewala</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
@@ -48,11 +49,11 @@ const Mentors = () => {
                         </ul>
                     </div>
                     <div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                    <img src="/Harshada di.jpg"
                             className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Harshada</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
@@ -65,11 +66,11 @@ const Mentors = () => {
                         </ul>
                     </div>
                     <div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
-                            className="img-responsive" alt=""></img>
+                    <img src="/Kajal di.jpeg"
+                           className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Kajal Hake</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
@@ -81,11 +82,11 @@ const Mentors = () => {
                             <li><i className="fab fa-linkedin-in"></i></li>
                         </ul>
                     </div><div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                    <img src="/Kirti di.jpeg"
                             className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Kirti Pandey</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
@@ -97,11 +98,11 @@ const Mentors = () => {
                             <li><i className="fab fa-linkedin-in"></i></li>
                         </ul>
                     </div><div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                    <img src="/Sakshi di.jpeg"
                             className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Sakshi Grover</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
@@ -113,11 +114,11 @@ const Mentors = () => {
                             <li><i className="fab fa-linkedin-in"></i></li>
                         </ul>
                     </div><div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                    <img src="/Shruti di.jpeg"
                             className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Shruti Mishra</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
@@ -129,43 +130,11 @@ const Mentors = () => {
                             <li><i className="fab fa-linkedin-in"></i></li>
                         </ul>
                     </div><div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
+                    <img src="/Yashvi di.jpeg"
                             className="img-responsive" alt=""></img>
                         <span className="mnjcards--three__rect-1">
                             <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
-                        </span>
-                        <span className="mnjcards--three__rect-2">
-                            <span className="shadow-2"></span>
-                        </span>
-                        <span className="mnjcards--three__circle"></span>
-                        <ul className="mnjcards--three__list">
-                            <li><i className="fab fa-facebook-f"></i></li>
-                            <li><i className="fab fa-twitter"></i></li>
-                            <li><i className="fab fa-linkedin-in"></i></li>
-                        </ul>
-                    </div><div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
-                            className="img-responsive" alt=""></img>
-                        <span className="mnjcards--three__rect-1">
-                            <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
-                        </span>
-                        <span className="mnjcards--three__rect-2">
-                            <span className="shadow-2"></span>
-                        </span>
-                        <span className="mnjcards--three__circle"></span>
-                        <ul className="mnjcards--three__list">
-                            <li><i className="fab fa-facebook-f"></i></li>
-                            <li><i className="fab fa-twitter"></i></li>
-                            <li><i className="fab fa-linkedin-in"></i></li>
-                        </ul>
-                    </div><div className="mnjcards mnjcards--three">
-                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80"
-                            className="img-responsive" alt=""></img>
-                        <span className="mnjcards--three__rect-1">
-                            <span className="shadow-1"></span>
-                            <p>Chris Levnon</p>
+                            <p>Yashvi Das</p>
                         </span>
                         <span className="mnjcards--three__rect-2">
                             <span className="shadow-2"></span>
