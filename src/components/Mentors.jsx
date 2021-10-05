@@ -1,7 +1,13 @@
 import React from 'react'
 // import {Container, Image, Row, Col} from 'react-bootstrap';
-// import img1 from '../media/3.png';
-// import img2 from '../media/7.png';
+// import img1 from '../media/Images/Sakshidi.jpg';
+// import img2 from '../media/Images/Aanchaldi.jpg';
+// import img3 from '../media/Images/Shrutidi.jpg';
+// import img4 from '../media/Images/Anikadi.jpg';
+// import img5 from '../media/Images/Harshadadi.jpg';
+// import img6 from '../media/Images/Kajaldi.jpg';
+// import img7 from '../media/Images/Yashvidi.jpg';
+// import img8 from '../media/Images/Kirtidi.jpg';
 import "./Judges.scss";
 import bg from "../media/Images/aboutbg.svg";
 
